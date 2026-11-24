@@ -18,7 +18,7 @@ Starter Repository
 Original repository: https://github.com/Jackson-Soriano/e26_temp
 
 Files Included
-index.html — Defines the webpage structure.
-style.css — Controls the custom appearance of the webpage.
-stack.js — Contains the JavaScript stack implementation and initial display logic.
+index.html — It defines the webpage structure.
+style.css — This Controls the custom appearance of the webpage.
+stack.js — This Contains the JavaScript stack implementation and initial display logic.
 
