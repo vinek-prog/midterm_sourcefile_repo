@@ -1,0 +1,110 @@
+    body{
+        background-color: #495579;
+    }
+    #stack{
+        align-items: center;
+    }
+    .push, .pop{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin:  5px auto;
+    align-content: center;
+    justify-content: center;
+    }
+    .pop{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+    
+    
+    }
+    .popped{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .bg-7B8FA1{
+        background-color: #7B8FA1;
+    }   
+    .bg-9C254D{
+        background-color: #9C254D;
+    }
+
+    .highlight {
+        background-color: yellow !important;
+        color: black;
+        border: 2px solid orange;
+    }
+
+    #deleted .deleted-box {
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px;
+    max-width: 50px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Queue column */
+.queue-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Front and Rear labels */
+.queue-label {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+}
+
+/* Queue blocks */
+#queue {
+    width: 100%;
+    text-align: center;
+    min-height: 10px;
+}
+
+
+/* Queue column */
+.queue-column {
+    display: flex;
+    flex-direction: column;
+    min-height: 265px;
+}
+
+/* Front and Rear labels */
+.queue-label {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+/* Queue display */
+#queue {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 0;
+    width: 100%;
+    padding: 5px;
+}
